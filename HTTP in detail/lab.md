@@ -8,13 +8,12 @@
 > Sat, 29 Jan 2022 23:30:24 GMT  
 > Content-Type: text/html; charset=utf-8  
 > Content-Length: 233  
-> Last-Modified: Sat, 29 Jan 2022 23:30:24 GMT  
->   
+> Last-Modified: Sat, 29 Jan 2022 23:30:24 GMT    
 > <html>  
 > <head>  
->     <title>TryHackMe</title>  
+> <title>TryHackMe</title>  
 > </head>  
 > <body>  
->     Welcome to the Room page THM{YOU'RE_IN_THE_ROOM}  
+> Welcome to the Room page THM{YOU'RE_IN_THE_ROOM}  
 > </body>  
 > </html>  
