@@ -97,6 +97,6 @@
 > <title>TryHackMe</title>  
 > </head>  
 > <body>  
-> The user has been deleted THM{USER_IS_DELETED}  
+> You logged in! Welcome Back THM{HTTP_REQUEST_MASTER}  
 > </body>  
 > </html>  
