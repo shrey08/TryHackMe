@@ -56,3 +56,47 @@
 > The user has been deleted THM{USER_IS_DELETED}  
 > </body>  
 > </html>  
+### PUT request to /user/2 with the username parameter set to admin
+> PUT /user/2 HTTP/1.1  
+> Host: tryhackme.com  
+> User-Agent: Mozilla/5.0 Firefox/87.0  
+> Content-Length: 14  
+>   
+> username=admin  
+#### Response
+> HTTP/1.1 200 Ok  
+> Server: nginx/1.15.8  
+> Sun, 30 Jan 2022 23:18:49 GMT  
+> Content-Type: text/html; charset=utf-8  
+> Content-Length: 231  
+> Last-Modified: Sun, 30 Jan 2022 23:18:49 GMT  
+> <html>  
+> <head>  
+> <title>TryHackMe</title>  
+> </head>  
+> <body>  
+> The user has been deleted THM{USER_IS_DELETED}  
+> </body>  
+> </html>  
+### POST the username of thm and a password of letmein to /login
+> POST /login HTTP/1.1  
+> Host: tryhackme.com  
+> User-Agent: Mozilla/5.0 Firefox/87.0  
+> Content-Length: 33  
+>   
+> username=thm&password=letmein  
+#### Response
+> HTTP/1.1 200 Ok  
+> Server: nginx/1.15.8  
+> Sun, 30 Jan 2022 23:18:49 GMT  
+> Content-Type: text/html; charset=utf-8  
+> Content-Length: 231  
+> Last-Modified: Sun, 30 Jan 2022 23:18:49 GMT  
+> <html>  
+> <head>  
+> <title>TryHackMe</title>  
+> </head>  
+> <body>  
+> The user has been deleted THM{USER_IS_DELETED}  
+> </body>  
+> </html>  
