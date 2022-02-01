@@ -1,10 +1,13 @@
-echo
-whoami
-ls
-cd
-cat
-pwd
-find -name filename
-wc -l filename
-grep "word" filename
-& : This operator allows you to run commands in the background of your terminal.
+echo<br>
+whoami<br>
+ls<br>
+cd<br>
+cat<br>
+pwd<br>
+find -name filename<br>
+wc -l filename<br>
+grep "word" filename<br>
+'&' : This operator allows you to run commands in the background of your terminal.<br>
+'&&'<br>
+'>'<br>
+'>>'<br>
