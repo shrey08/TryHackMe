@@ -11,3 +11,15 @@ grep "word" filename<br>
 '&&'<br>
 '>'<br>
 '>>'<br>
+ssh username@IP_Address<br>
+ls -a : -a is short for --all. This shows hidden folders as well.<br>
+ls --help<br>
+man ls<br>
+| Command |	Full | Name	Purpose |
+| ------- | ------- | -------- |
+| touch	| touch	| Create file |
+| mkdir | make directory | Create a folder |
+| cp | copy | Copy a file or folder |
+| mv | move	Move a file or folder |
+| rm | remove | Remove a file or folder |
+| file | file | Determine the type of a file |
