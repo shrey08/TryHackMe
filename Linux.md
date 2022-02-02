@@ -50,7 +50,7 @@ Example: <b>wget</b> https://assets.tryhackme.com/additional/linux-fundamentals/
 | User on the remote system |	ubuntu |
 | Name of the file on the local system | important.txt |
 | Name that we wish to store the file as on the remote system | transferred.txt |
-scp important.txt ubuntu@192.168.1.30:/home/ubuntu/transferred.txt<br><br>
+> scp important.txt ubuntu@192.168.1.30:/home/ubuntu/transferred.txt<br><br>
 <b>Example 2:</b> Copy a file from a remote computer that we're not logged into<br>
 | Variable | Value |
 | -------- | ------ |
@@ -58,4 +58,4 @@ scp important.txt ubuntu@192.168.1.30:/home/ubuntu/transferred.txt<br><br>
 | User on the remote system | ubuntu |
 | Name of the file on the remote system | documents.txt |
 | Name that we wish to store the file as on our system | notes.txt |
-scp ubuntu@192.168.1.30:/home/ubuntu/document.txt notes.txt<br>
+> scp ubuntu@192.168.1.30:/home/ubuntu/document.txt notes.txt<br>
