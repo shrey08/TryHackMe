@@ -23,6 +23,7 @@ man ls<br>
 | mv | move	| Move a file or folder |
 | rm | remove | Remove a file or folder |
 | file | file | Determine the type of a file |
+<br>
 ls -lh<br>
 nano filename<br>
 VIMM<br>
