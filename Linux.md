@@ -59,3 +59,6 @@ Example: <b>wget</b> https://assets.tryhackme.com/additional/linux-fundamentals/
 | Name of the file on the remote system | documents.txt |
 | Name that we wish to store the file as on our system | notes.txt |
 > scp ubuntu@192.168.1.30:/home/ubuntu/document.txt notes.txt
+#### Serving Files From Your Host - WEB
+Python helpfully provides a lightweight and easy-to-use module called "HTTPServer". This module turns your computer into a quick and easy web server that you can use to serve your own files, where they can then be downloaded by another computing using commands such as <b>curl</b> and <b>wget</b>.
+<b>python3 -m  http.server</b>
