@@ -60,5 +60,17 @@ Example: <b>wget</b> https://assets.tryhackme.com/additional/linux-fundamentals/
 | Name that we wish to store the file as on our system | notes.txt |
 > scp ubuntu@192.168.1.30:/home/ubuntu/document.txt notes.txt
 #### Serving Files From Your Host - WEB
-Python helpfully provides a lightweight and easy-to-use module called "HTTPServer". This module turns your computer into a quick and easy web server that you can use to serve your own files, where they can then be downloaded by another computing using commands such as <b>curl</b> and <b>wget</b>.
+Python helpfully provides a lightweight and easy-to-use module called "HTTPServer". This module turns your computer into a quick and easy web server that you can use to serve your own files, where they can then be downloaded by another computing using commands such as <b>curl</b> and <b>wget</b>.<br>
 <b>python3 -m  http.server</b>
+##### Lab: Download the file http://MACHINE_IP:8000/.flag.txt onto the TryHackMe AttackBox
+In the Attack Box terminal<br>
+ssh tryhackme@MACHINE_IP<br>
+password:<br>
+Connection Established<br>
+In the home folder of the machine make the server<br>
+python3 -m http.server<br>
+Server setup completed<br>
+Now in the attackbox: wget http://MACHINE_IP:8000/.flag.txt<br>
+The file gets download<br>
+cat .flag.txt<br>
+Output:THM{WGET_WEBSERVER}<br>
